@@ -1,3 +1,0 @@
-C:/Users/trana/Desktop/Homework/COE449/project1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/trana/Desktop/Homework/COE449/project1/cmake-build-debug/CMakeFiles/project1.dir
-C:/Users/trana/Desktop/Homework/COE449/project1/cmake-build-debug/CMakeFiles/edit_cache.dir

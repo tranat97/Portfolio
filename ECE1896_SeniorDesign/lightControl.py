@@ -18,7 +18,7 @@ def turnOn(roomID, ip, username):
     requests.put(url, body)
 
 def turnOff(roomID, ip, username):
-    url = "http://"+ip+"/api/"+username+"/groups/"+roomID+"/action"
+    url = "http://"+ip+"/api/"+username+"/groups/"+str(roomID)+"/action"
     body = '{"on":false}'
     requests.put(url, body)
 
@@ -54,7 +54,7 @@ def setup():
             palsjson = json.loads(response)
             if "error" in palsjson:
                 print("Please press the link button your Philips Hue Bridge")
-                input("Then Press any button on the keyboard to continue:")
+                input("Then Press ENTER to continue:")
             elif "success" in palsjson:
                 username = palsjson["success"]["username"]
                 print(username)
@@ -70,8 +70,8 @@ def setup():
     return palsjson
 
 
-pals = setup()
-ip = pals["ip"]
-username = pals["username"]
+# pals = setup()
+# ip = pals["ip"]
+# username = pals["username"]
 
-setBrightness("3", ip, username, 254)
+# setBrightness("3", ip, username, 2)
