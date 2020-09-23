@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/trana/Desktop/Homework/COE449/project3/mallocdrv.c
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+time.h
+-
+mymalloc.c
+C:/Users/trana/Desktop/Homework/COE449/project3/mymalloc.c
+

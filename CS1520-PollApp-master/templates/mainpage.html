@@ -1,0 +1,47 @@
+{% extends '_base.html' %}
+{% block content %}
+
+	<table style = " absolute; top : 0; bottom: 0; left: 0; right: 0; " height = "100%" width = "100%" style = "margin: 0px;">
+		<tr>
+			<td rowspan = "3" style = "height: 90%">
+				<table height = "100%" width = "100%" border = "5" style = "margin: 1px;">
+				<tr>
+					<td style = "background-color: #A2E96D" width = "33%">Dog person or Cat person?</td>
+					<td style = "background-color: #F9E79F" width = "33%">Is water wet?</td>
+					<td style = "background-color: #A9CCE3" width = "33%">Can jet fuel melt steel beams?</td>
+				</tr>
+				<tr>
+					<td style = "background-color: #A2E96D" height = "5%"><div id="results">Answer: </div><button onclick="results('Dog Person')">Dog Person</button><button onclick="results('Cat Person')">Cat Person</button></td>
+					<td style = "background-color: #F9E79F" height = "5%"><button>Yes</button><button>No</button></td>
+					<td style = "background-color: #A9CCE3" height = "5%"><button>Yes</button><button>No</button></td>
+				</tr>
+				<tr>
+					<td style = "background-color: #76D7C4">Plain pizza or toppings?</td>
+					<td style = "background-color: #9B59B6">I'm running out of questions to ask</td>
+					<td style = "background-color: #85929E">How often do you think about alien existence?</td>
+				</tr>
+				<tr>
+					<td style = "background-color: #76D7C4" height = "5%"><button>Plain</button><button>Toppings</button></td>
+					<td style = "background-color: #9B59B6" height = "5%"><button>Okay</button><button>No</button></td>
+					<td style = "background-color: #85929E" height = "5%"><button>> 1 hr/week</button><button>Never</button></td>
+				</tr>
+				<tr>
+				
+					<td style = "background-color: #5DADE2">Do you like my cat?</td>
+					<td style = "background-color: #D98880">Do you drink water on a daily basis?</td>
+					<td style = "background-color: teal">Am I tired and hung over?</td>
+				</tr>
+				<tr>
+					<td style = "background-color: #5DADE2" height = "5%"><button>Yes</button><button>No</button></td>
+					<td style = "background-color: #D98880" height = "5%"><button>Yes</button><button>No</button></td>
+					<td style = "background-color: teal" height = "5%"><button>Yes</button><button>No</button></td>
+				</tr>
+			</table></td>		
+		
+		</tr>
+		<tr><td height = "25%"></td></tr>
+		<tr><td height = "25%"></td></tr>
+	</table>
+
+
+{% endblock %}

@@ -1,0 +1,3 @@
+C:/Users/trana/OneDrive/Desktop/Homework/COE449/project4/cmake-build-debug/CMakeFiles/project4.dir
+C:/Users/trana/OneDrive/Desktop/Homework/COE449/project4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/trana/OneDrive/Desktop/Homework/COE449/project4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

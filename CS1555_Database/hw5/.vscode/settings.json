@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+    
+        {
+            "database": "dbclass",
+            "dialect": "OracleDB",
+            "name": "DB",
+            "password": "4130036",
+            "port": 1521,
+            "server": "class3.cs.pitt.edu",
+            "username": "ant111"
+        }
+    ]
+}

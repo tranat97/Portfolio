@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>{{page_title}}</title>
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+	<script>
+		function results(x) {
+		console.log(x);
+			var result = document.getElementById('results');
+			result.innerHTML = "Answer: <strong>"+ x + "</strong>";
+		}
+	</script>
+  </head>
+
+  <body>
+    <!-- Side navigation -->
+    <nav class="sidenav">
+      <h1><a href="/">PollApp</a></h1>
+      <a href="/profile">Profile</a>
+      <a href="/settings">Settings</a>
+      <a href="/about">About</a>
+    </nav>
+
+    <div class="templatemain">
+
+      <header>
+        {# 
+          
+          The header and content areas will be replaced in templates that extend
+          this one.
+
+        #}
+        {% block header %}{% endblock %}
+      </header>
+
+      {% if error_message %}
+        <div class="Error">{{error_message}}</div>
+      {% endif %}
+
+      <!-- Page content -->
+      {% block content %}{% endblock %}
+    </div>
+  </body>
+</html>

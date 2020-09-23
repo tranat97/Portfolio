@@ -1,0 +1,33 @@
+2a)
+FNAME,LNAME,CELL_PN
+"Michael","Johnson","4121231231"
+
+2b)
+FNAME,LNAME,BALANCE,NUM_OF_CALLS
+"Liam","Allen","100","2"
+
+2c)
+FNAME,LNAME,CELL_PN
+"Frank","Shaw","4843504021"
+
+2d)
+Customers:Non Customers(%)
+"55.55555555555555555555555555555555555556"
+
+4) Before Refresh
+a)
+FNAME,LNAME,CELL_PN,BALANCE
+"Kate","Stevenson","4124564564","100.99"
+
+b)
+FNAME,LNAME,PN,CITY
+"John","Do","1234565089","Pittsburgh"
+
+4) After Refresh
+a)
+FNAME,LNAME,CELL_PN,BALANCE
+"Kate","Stevenson","4124564564","10.99"
+
+b)
+FNAME,LNAME,PN,CITY
+"John","Do","1234565089","Pittsburgh"

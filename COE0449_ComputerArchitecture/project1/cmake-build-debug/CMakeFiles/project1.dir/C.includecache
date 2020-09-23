@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/trana/Desktop/Homework/COE449/project1/bmp_edit.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+

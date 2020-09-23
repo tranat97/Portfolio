@@ -1,0 +1,13 @@
+I stored user history the same way the dictionary is stored, as a DLB. Each node has a frequency variable which 
+is incremented when another word tries to add a node at the same location. The frequency of each word in the user history
+is the value of the frequency at the node containing the word's terminating character '$'
+By doing this, when a word that is already included in the user history is added again, the frequency of that word is incremented.
+When a suggestion is found in either the dictionary or user history DLB, the String and its frequency is stored in a FreqString 
+object. FreqStrings are then sorted by frequency using an ArrayList<FreqString>. Only the first 5 suggestions are printed.
+
+To save frequencies over runs, when printing out user history, words are printed multiple times. This also means that words will be added
+multiple times when the user history DLB is built (i.e. if a word has a frequency of 4, it will be printed 4 times. When being built,
+the word will be added 4 times making the frequency of the word 4).
+
+I chose to use this method because the code used to build the dictionary trie could be reused. The DLB trie is also good for 
+building strings from a given prefix.

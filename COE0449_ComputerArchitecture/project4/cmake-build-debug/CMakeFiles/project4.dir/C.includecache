@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/trana/OneDrive/Desktop/Homework/COE449/project4/rpg.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+signal.h
+-
+
